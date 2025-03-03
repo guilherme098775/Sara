@@ -6,7 +6,7 @@ body {
     justify-content: center;
     background: linear-gradient(135deg, #e73f21, #feb47b); /* Degradê romântico */
     color: #fff; /* Cor do texto branca para contraste */
-    height: 135vh;
+    height: 100vh;
     margin: 0;
 }
 h1 {
@@ -20,13 +20,14 @@ h1 {
 .titulo-casal {
     font-size: 5em;
     color: #d6ec10;
+    text-align: center;
 }
 
 .texto-romantico {
     font-size: 1.8em;
     margin: auto;
     text-align: center;
-    max-width: auto;
+    max-width: 90%;
     color: #ffffff;
 }
 
@@ -71,4 +72,41 @@ h1 {
     color: #000000; /* Cor da mensagem */
     margin-top: 20px;
     display: none; /* Inicialmente escondida */
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em; /* Reduz o tamanho da fonte em telas menores */
+    }
+
+    .titulo-casal {
+        font-size: 4em; /* Reduz o tamanho da fonte em telas menores */
+    }
+
+    .texto-romantico {
+        font-size: 1.5em; /* Reduz o tamanho da fonte em telas menores */
+    }
+
+    .carousel-images img {
+        width: 50%; /* Exibe 2 imagens por vez em telas menores */
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em; /* Reduz ainda mais o tamanho da fonte em telas muito pequenas */
+    }
+
+    .titulo-casal {
+        font-size: 3em; /* Reduz o tamanho da fonte em telas muito pequenas */
+    }
+
+    .texto-romantico {
+        font-size: 1.2em; /* Reduz o tamanho da fonte em telas muito pequenas */
+    }
+
+    .carousel-images img {
+        width: 100%; /* Exibe 1 imagem por vez em telas muito pequenas */
+    }
 }
