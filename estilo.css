@@ -6,7 +6,7 @@ body {
     justify-content: center;
     background: linear-gradient(135deg, #e73f21, #feb47b); /* Degradê romântico */
     color: #fff; /* Cor do texto branca para contraste */
-    height: 100%;
+    height: 135vh;
     margin: 0;
 }
 h1 {
@@ -35,7 +35,6 @@ h1 {
     width: 100%;
     max-width: 95%;
     overflow: hidden;
-    height: 135vh;
 }
 
 .carousel-images {
