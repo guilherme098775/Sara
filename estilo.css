@@ -6,7 +6,7 @@ body {
     justify-content: center;
     background: linear-gradient(135deg, #e73f21, #feb47b); /* Degradê romântico */
     color: #fff; /* Cor do texto branca para contraste */
-    height: 135vh;
+    height: 100%;
     margin: 0;
 }
 h1 {
