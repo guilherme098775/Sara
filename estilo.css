@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #e73f21, #feb47b); /* Degradê romântico */
+    color: #fff; /* Cor do texto branca para contraste */
+    height: 100vh;
+    margin: 0;
+}
+h1 {
+    color: #fff6f6;
+}
+.contador {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.titulo-casal {
+    font-size: 5em;
+    color: #d6ec10;
+}
+
+.texto-romantico {
+    font-size: 1.8em;
+    margin: auto;
+    text-align: center;
+    max-width: auto;
+    color: #ffffff;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 95%;
+    overflow: hidden;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-images img {
+    width: 33.33%;
+    border-radius: 10px;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    color: #000000; /* Cor da mensagem */
+    margin-top: 20px;
+    display: none; /* Inicialmente escondida */
+}
