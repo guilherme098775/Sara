@@ -15,6 +15,7 @@ h1 {
 .contador {
     font-size: 2em;
     margin-top: 20px;
+    padding: 20px;
 }
 
 .titulo-casal {
@@ -107,7 +108,7 @@ h1 {
     }
 
     .carousel-images img {
-        width: 100%; /* Exibe 1 imagem por vez em telas muito pequenas */
+        width: 33.33%; /* Exibe 1 imagem por vez em telas muito pequenas */
     }
 }
 
