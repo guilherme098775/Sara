@@ -6,7 +6,7 @@ body {
     justify-content: center;
     background: linear-gradient(135deg, #e73f21, #feb47b); /* Degradê romântico */
     color: #fff; /* Cor do texto branca para contraste */
-    height: 100vh;
+    height: 150vh;
     margin: 0;
 }
 h1 {
@@ -87,16 +87,27 @@ h1 {
 
     .texto-romantico {
         font-size: 1.5em; /* Reduz o tamanho da fonte em telas menores */
+        margin: 20px;
     }
 
     .carousel-images img {
-        width: 50%; /* Exibe 2 imagens por vez em telas menores */
+        width: 33.33%; /* Exibe 2 imagens por vez em telas menores */
+    }
+
+    .contador {
+        font-size: 1.5em;
+        padding-bottom: 50px;
     }
 }
 
 @media (max-width: 480px) {
+    body{
+        height: 100%;
+    }
+
     h1 {
         font-size: 1.5em; /* Reduz ainda mais o tamanho da fonte em telas muito pequenas */
+        padding-bottom: 50px;
     }
 
     .titulo-casal {
@@ -105,10 +116,16 @@ h1 {
 
     .texto-romantico {
         font-size: 1.2em; /* Reduz o tamanho da fonte em telas muito pequenas */
+        margin: 20px;
     }
 
     .carousel-images img {
         width: 33.33%; /* Exibe 1 imagem por vez em telas muito pequenas */
+    }
+
+    .contador {
+        font-size: 1.1em;
+        padding-bottom: 50px;
     }
 }
 
